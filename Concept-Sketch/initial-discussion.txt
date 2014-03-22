@@ -1,0 +1,35 @@
+mario clone - platformer
+
+First Task - Demo Level
+
+camera centered on character
+
+walking is hopping no animation
+
+scoreing - jumping over the enemy,  completing the level, power ups, Time bonus 2 points per second
+
+
+
+bird - main character
+rat/owl/turtle - enemies
+	enemies move along a set path one direction, except if they hit a block then flip direction
+	Can not touch enemies
+
+float mechanic power ups
+damange removes power ups
+
+title screen - 
+possible options
+	options menu
+		sounds on/off
+
+possible movie clip at title screen.
+
+mobile smart phone - 
+
+side margins for left and right
+bottom for jump
+
+different level machinics - normal like mario, flappy bird machanic level
+
+power ups float down through the world after released

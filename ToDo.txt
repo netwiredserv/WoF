@@ -1,6 +1,16 @@
 This is the working ToDo List.
 
 
-1. Story 
+1. Story
+	Kori / Alex Story
 2. Concept
+	Mario Clone
 3. Sketches
+	Kori / Alex
+
+
+First Task
+
+Fisher - Demo Level
+Kori   - Title Screen 
+
