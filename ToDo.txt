@@ -18,4 +18,6 @@ Kori   - Title Screen
 
 Week 1:
 	Fisher - Finalize movement machanics for touch interfaces.
+	'3-25 Left / Right / Jump Touch Buttons
+	
 
