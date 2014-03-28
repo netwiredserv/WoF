@@ -47,7 +47,7 @@ public class CombatSystem : MonoBehaviour {
 	}
 	
 	void Respawn (){
-		respawn = GameObject.FindGameObjectWithTag("Resawn");
+		respawn = GameObject.FindGameObjectWithTag("Respawn");
 		player.transform = respawn.transform
 		collider.enabled = true;
 	}
