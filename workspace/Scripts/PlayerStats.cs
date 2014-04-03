@@ -1,9 +1,8 @@
 using UnityEngine;
 using System.Collections;
  
-public class CombatSystem : MonoBehaviour {
+public class PlayerStats : MonoBehaviour {
 
-    public CharacterController controller;
     public int health = 1; 
 	public int lives = 3;
 	public bool PowerUp = false;
@@ -11,9 +10,8 @@ public class CombatSystem : MonoBehaviour {
 	
 	public GameObject respawn;
 	
-    void Start () {
- 
-    }
+    void Start () 
+	{}
  
     void Update () {
 		DeadCheck ();
@@ -26,16 +24,9 @@ public class CombatSystem : MonoBehaviour {
 			//Reduce Timer
 		}
     }
- 
-    void onControllerColliderHit(ControllerColliderHit hit){
-		if (hit.gameObject.tag == "Enemy" && !PowerUp){
-			health = 0;
-		}
-    }
 	
 	void DeadCheck(){
 		if (health <= 0){
-			collider.enabled = false;
 			lives -= 1;
 			
 			if (lives <= 0){
@@ -46,9 +37,8 @@ public class CombatSystem : MonoBehaviour {
 		}
 	}
 	
-	void Respawn (){
-		respawn = GameObject.FindGameObjectWithTag("Respawn");
-		player.transform = respawn.transform
-		collider.enabled = true;
+	void Respawn ()
+	{
+		player.transform.position = respawn.transform.position;
 	}
 }

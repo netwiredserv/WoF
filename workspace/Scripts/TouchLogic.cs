@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TouchLogic : MonoBehaviour {
 	
-    void Update () 
+    void CheckTouches () 
 	{
  
         if (Input.touchCount > 0)
